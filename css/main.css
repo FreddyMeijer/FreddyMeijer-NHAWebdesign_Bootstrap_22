@@ -1,0 +1,79 @@
+.container-md {
+    background-color: #6594aa;
+}
+
+#groot {
+    height: 180px;
+    padding: 10px;
+}
+
+.aikido img {
+    width: 100%;
+    float: left;
+}
+.row{
+    text-align: center;
+}
+
+.werk img{
+    width: 100%;
+    float: left;
+}
+
+#copyright {
+    min-height: 200px;
+
+    text-align: center;
+    font-size: small;
+}
+
+.aikido h6,
+.werk h6,
+h6 {
+    color: #6c757d;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+h4,
+p,
+#copyright {
+    color: #fbfcfd;
+    padding-left: 10px;
+}
+
+form {
+    padding-left: 10px;
+}
+
+.accordion-button.collapsed {
+    background: #fae5cf
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #feddb9;
+}
+
+.accordion {
+    background-color: #6594aa;
+}
+
+.accordion-body {
+    background-color: #7aa8bd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="textarea"] {
+    width: 300px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+input[type="textarea"] {
+    min-height: 200px;
+}
+
+.werk a{
+    color: white;
+}

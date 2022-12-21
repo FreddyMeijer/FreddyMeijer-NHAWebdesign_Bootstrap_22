@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Freddy Meijer">
+    <meta http-equiv="content-language" content="nl-nl">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Deze website is gebouwd om Bootstrap te leren begrijpen">
+    <meta name="keywords" content="freddy,meijer,bootstrap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <noscript>Om deze website goed te kunnen gebruiken dient JavaScript geactiveerd te zijn.</noscript>
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header class="container-md">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-md">
+                <a class="navbar-brand" href="#">Freddy's webpagina</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="OverMij.html">Over mij</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-md">
+        <br>
+        <h4>Contact</h4>
+        <p>Heb je vragen of opmerkingen? Laat het mij dan weten via onderstaand contactformulier. Ik neem dan zo spoedig
+            mogelijk contact met je op.</p>
+        <form action="https://formspree.io/f/mlekrnob" method="POST">
+            <input type="text" name="voornaam" placeholder="Voornaam"><br>
+            <input type="text" name="achternaam" placeholder="Achternaam"><br>
+            <input type="email" name="email" placeholder="E-mail"><br>
+            <input type="textarea" name="bericht" placeholder="Bericht"><br><br>
+            <button type="submit" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-envelope-paper" viewBox="0 0 16 16">
+                    <path
+                        d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z" />
+                </svg>
+                Verzend
+            </button>
+        </form>
+    </div>
+    <footer class="container-md">
+        <br>
+        <p id="copyright">© Freddy Meijer</p>
+    </footer>
+</body>
+
+</html>
